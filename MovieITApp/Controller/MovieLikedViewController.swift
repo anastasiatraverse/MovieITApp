@@ -10,7 +10,7 @@ import UIKit
 class MovieLikedViewController: UIViewController, UITabBarControllerDelegate {
     var movieLiked :  [Result] = []
     var selectedRow : Int = 0
-
+    
     @IBOutlet weak var movieLikedTableView: UITableView!
     
     override func viewDidLoad() {

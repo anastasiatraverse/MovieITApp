@@ -10,7 +10,6 @@ import UIKit
 class ViewController: UIViewController{
     
     let apiKey = "055b0798d93b6c7c4b5b64df99ddca61"
-//    let imageCache = NSCache<NSString, UIImage>()
         
     var selectedRow : Int = 0
     var moviesInfo: [Result] = []
@@ -112,15 +111,18 @@ extension UIImageView{
     public func imageFromURL(from imageURL: String){
         guard let url = URL(string: imageURL) else {return}
         
-        DispatchQueue.global().async {
-            [weak self] in
-            if let data = try? Data(contentsOf: url){
-                if let image = UIImage(data:data) {
-                    DispatchQueue.main.async {
-                        self?.image = image
-                    }
+        let task = URLSession.shared
+        
+        task.dataTask(with: url) { [self](data, response, error) in
+            
+            guard let data = data else { return }
+            guard error == nil else { return }
+            
+            if let image = UIImage(data:data) {
+                DispatchQueue.main.async {
+                    self.image = image
                 }
             }
-        }
+        }.resume()
     }
 }

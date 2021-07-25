@@ -228,15 +228,12 @@
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgd-RN-n7Q">
-                                                    <rect key="frame" x="332" y="29" width="52" height="22"/>
+                                                    <rect key="frame" x="223.5" y="29" width="160.5" height="22"/>
                                                     <color key="tintColor" systemColor="systemRedColor"/>
                                                     <state key="normal" image="suit.heart" catalog="system"/>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feX-jL-5GW">
-                                                    <rect key="frame" x="172" y="29" width="150" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="150" id="Aym-Tp-Yfz"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="172" y="29" width="41.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -280,10 +277,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="vbF-gW-tLE" firstAttribute="leading" secondItem="5Pd-9Q-VyT" secondAttribute="leading" constant="91" id="5X6-nq-Gis"/>
-                                    <constraint firstAttribute="bottom" secondItem="vbF-gW-tLE" secondAttribute="bottom" constant="22" id="C7m-WM-DAB"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vbF-gW-tLE" secondAttribute="trailing" constant="20" symbolic="YES" id="XCh-pN-9O6"/>
-                                    <constraint firstItem="vbF-gW-tLE" firstAttribute="top" secondItem="5Pd-9Q-VyT" secondAttribute="top" constant="22" id="kZ8-nj-BD3"/>
+                                    <constraint firstItem="vbF-gW-tLE" firstAttribute="top" secondItem="5Pd-9Q-VyT" secondAttribute="top" constant="22" id="7IQ-NO-gHU"/>
+                                    <constraint firstItem="vbF-gW-tLE" firstAttribute="centerX" secondItem="5Pd-9Q-VyT" secondAttribute="centerX" id="GOd-CR-hvh"/>
+                                    <constraint firstItem="vbF-gW-tLE" firstAttribute="centerY" secondItem="5Pd-9Q-VyT" secondAttribute="centerY" id="SMy-IX-6nV"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -333,7 +329,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="X8N-6P-lWQ"/>
+        <segue reference="pX8-MO-1zd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="film.fill" catalog="system" width="128" height="93"/>
