@@ -40,7 +40,7 @@
                                                     <color key="tintColor" systemColor="systemRedColor"/>
                                                     <state key="normal" image="suit.heart" catalog="system"/>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" id="SkM-mm-CY1">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="SkM-mm-CY1">
                                                     <rect key="frame" x="117" y="29" width="147" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
@@ -85,10 +85,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="eyc-2J-zHE" secondAttribute="trailing" constant="91" id="9gr-Cs-pbI"/>
-                                    <constraint firstAttribute="bottom" secondItem="eyc-2J-zHE" secondAttribute="bottom" constant="22" id="Bw8-cV-uU8"/>
-                                    <constraint firstItem="eyc-2J-zHE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JQY-Yb-rgX" secondAttribute="leading" symbolic="YES" id="PoY-C2-Ctf"/>
-                                    <constraint firstItem="eyc-2J-zHE" firstAttribute="top" secondItem="JQY-Yb-rgX" secondAttribute="top" constant="22" id="tQc-IE-VYS"/>
+                                    <constraint firstItem="eyc-2J-zHE" firstAttribute="centerY" secondItem="JQY-Yb-rgX" secondAttribute="centerY" id="Ddk-AN-raD"/>
+                                    <constraint firstItem="eyc-2J-zHE" firstAttribute="centerX" secondItem="JQY-Yb-rgX" secondAttribute="centerX" id="emY-AH-Cjr"/>
+                                    <constraint firstItem="eyc-2J-zHE" firstAttribute="top" secondItem="JQY-Yb-rgX" secondAttribute="top" constant="22" id="wo7-Xm-su8"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -132,7 +131,7 @@
                                     <constraint firstAttribute="height" constant="340" id="fwC-Li-Ow8"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" placeholderIntrinsicWidth="354" placeholderIntrinsicHeight="55" text="Movie Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kei-MF-4Bg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" placeholderIntrinsicWidth="354" placeholderIntrinsicHeight="55" text="Movie Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="kei-MF-4Bg">
                                 <rect key="frame" x="50" y="394" width="354" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -330,7 +329,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pX8-MO-1zd"/>
+        <segue reference="X8N-6P-lWQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="film.fill" catalog="system" width="128" height="93"/>
