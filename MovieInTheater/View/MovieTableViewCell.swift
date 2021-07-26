@@ -1,10 +1,9 @@
 //
 //  MovieTableViewCell.swift
-//  MovieITApp
+//  MovieInTheater
 //
-//  Created by Анастасия Траверсе on 20.04.2021.
+//  Created by Анастасия Траверсе on 26.07.2021.
 //
-
 import UIKit
 
 class MovieTableViewCell: UITableViewCell {
