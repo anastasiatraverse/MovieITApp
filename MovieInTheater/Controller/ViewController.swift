@@ -64,7 +64,7 @@ class ViewController: UIViewController{
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "showMovieDetail" {
-            if let movieViewController = segue.destination as?  MovieDetailViewController {
+            if let movieViewController = segue.destination as?  MovieDetailViewController { 
                 movieViewController.movie = moviesInfo[selectedRow]
             }
         }
